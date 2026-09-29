@@ -1,0 +1,14 @@
+{
+    "elements": {},
+    "attributes": {
+        "th:action": {
+            "context": "form"
+        },
+        "sec:authorize": {
+            "context": "button"
+        },
+        "th:fragment": {
+            "context": "section"
+        }
+    }
+}

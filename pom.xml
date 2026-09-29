@@ -28,6 +28,7 @@
     </scm>
     <properties>
         <java.version>21</java.version>
+        <lombok.version>1.18.48</lombok.version>
         <maven.compiler.release>17</maven.compiler.release>
         <start-class>com.tienda.TiendaApplication</start-class>
     </properties>
@@ -104,11 +105,15 @@
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>                    
                            
-                           
+        <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>9.5.0</version>
+        </dependency>                  
                           
                            
                            
-                           
+                    
     </dependencies>
 
     <build>
