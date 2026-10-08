@@ -9,5 +9,4 @@ import org.springframework.stereotype.Repository;
 public interface CategoriaRepository extends JpaRepository<Categoria, Integer> {
 
     public List<Categoria> findByActivoTrue();
-    
 }
